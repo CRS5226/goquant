@@ -1,0 +1,19 @@
+DeribitOMS/
+├── build/                        # Directory for compiled binaries
+├── docs/                         # Documentation, including API usage and performance reports
+├── include/                      # Header files for the project
+│   ├── api/
+│   ├── websocket/
+│   ├── trading/
+│   └── utils/
+├── src/                          # Source code files
+│   ├── api/                      # Code for interacting with Deribit API
+│   ├── websocket/                # WebSocket server implementation
+│   ├── trading/                  # Core trading logic
+│   └── utils/                    # Utility functions and error handling
+├── tests/                        # Unit and integration tests
+├── benchmarks/                   # Code and scripts for latency benchmarking
+├── config/                       # Configuration files (e.g., API keys, logging settings)
+├── logs/                         # Logs generated during runtime
+├── data/                         # Sample data for testing and debugging
+└── CMakeLists.txt                # Build system configuration
